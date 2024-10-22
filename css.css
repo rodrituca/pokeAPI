@@ -1,0 +1,104 @@
+/* Los estilos los hizo chatGPT */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(Background.jpg);
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno encima del otro */
+    align-items: center; /* Centra horizontalmente */
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0;
+}
+
+.header {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    margin-top: 20px; /* Margen superior para un poco de espacio */
+}
+
+h1, h2, p {
+    margin: 5px 0; /* Añade un margen entre los elementos */
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Espacio entre el encabezado y el contenedor */
+}
+
+.input-container {
+    display: flex; /* Coloca los elementos en fila */
+    justify-content: center; /* Centra los elementos dentro del contenedor */
+    margin-bottom: 20px; /* Espacio entre la barra y el contenedor de sprites */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%; /* Ancho de la barra de búsqueda */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px; /* Espacio entre la barra y el botón */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.sprites {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sprite {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+
+.input-container {
+    display: flex; /* Coloca los elementos en fila */
+    justify-content: center; /* Centra los elementos dentro del contenedor */
+    margin-bottom: 20px; /* Espacio entre la barra y el contenedor de sprites */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+}
+
+.input-container input[type="text"] {
+    padding: 10px;
+    width: 70%; /* Ancho de la barra de búsqueda */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px; /* Espacio entre la barra y el botón */
+}
+
+.input-container button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #0056b3;
+}
+
+.video-container {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde el fondo */
+    left: 20px;   /* Ajusta la distancia desde la izquierda */
+    width: 960px; /* Asegúrate de que el ancho coincida con el del iframe */
+}

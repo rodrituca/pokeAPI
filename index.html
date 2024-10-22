@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 16.1 | PokeAPI</title>
+    <link rel="icon" type="image/x-icon" href="pokeball.png">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <!-- Titulo y explicación -->
+    <div class="header">
+    <h1>Taller 16.1 | Trabajando con APIS</h1>
+    <h2>Me enfrento al mayor evento canónico de todo programador después del "Hola Mundo", la PokeAPI.</h2>
+    <p>Al escribir el nombre (o número) de un Pokémon y oprimir el botón, se hace un llamado a la API para conseguir el Sprite del Pokémon y se mete en un DIV.</p>
+    </div>
+    
+    <!-- Container con campo de texto, botón y div para los Sprites-->
+    <div class="container">
+    <div class="input-container">
+    <input type="text" placeholder="Nombre del Pokémon" id="inputSearch">
+    <button id="btnSearch">Buscar</button>
+    </div>
+    <div class="sprites" id="pokemonList"></div>
+    </div>
+
+    <!-- Pokerap de referencia para los que no hayan tenido infancia -->
+    <div class="video-container">
+    <p>En caso de no conocer ninguno...</p>
+    <iframe width="400" height="350" src="https://www.youtube.com/embed/B2DnxwR045s" title="Pokerap - 150 pokemon español latino" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
